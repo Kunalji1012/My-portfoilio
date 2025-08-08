@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal's Portfolio</title>
+    <!-- Link to the custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a professional look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Loader Screen -->
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header with Navigation and Dark Mode Toggle -->
+    <header class="header">
+        <a href="#" class="logo">Kunal's Portfolio</a>
+        <nav class="nav">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#blog" class="nav-link">Blog</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Design. Develop. Deliver.</h1>
+            <p class="hero-subtitle">Welcome to my creative space!</p>
+            <p class="hero-text">Exploring creativity through code and premium design.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+        <div class="hero-image-container">
+            <!-- Replace with your own image -->
+            <img src="me.jpg" alt="Kunal's Profile" class="hero-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>Hi, I’m Kunal — a passionate web designer and content creator. I love transforming ideas into beautiful, functional websites. Learning and building from scratch excites me every single day.</p>
+            <p>I have worked on multiple personal and freelance projects including blogs, landing pages, and business websites using HTML, CSS, and WordPress. My focus is on clean, responsive, and user-friendly designs.</p>
+        </div>
+    </section>
+
+    <!-- Skills and Qualifications Section -->
+    <section id="skills" class="section reveal">
+        <h2 class="section-title">Skills & Qualifications</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <h3>My Hobbies</h3>
+                <div class="tags">
+                    <span>🎨 Designing</span>
+                    <span>📚 Reading</span>
+                    <span>🎮 Gaming</span>
+                    <span>✍️ Blogging</span>
+                    <span>🚴‍♂️ Cycling</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Qualifications</h3>
+                <div class="tags">
+                    <span>✅ Graduate</span>
+                    <span>✅ Basic HTML & CSS</span>
+                    <span>✅ Freelance Project Experience</span>
+                    <span>✅ Graphic Design Skills</span>
+                    <span>✅ Blogging & SEO Basics</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1: Your Blog -->
+            <a href="https://knowwithkunal.blogspot.com/?m=1" target="_blank" class="project-card">
+                <img src="https://placehold.co/600x400/5c6ac4/ffffff?text=Know+With+Kunal" alt="Know With Kunal Blog">
+                <div class="project-info">
+                    <h3>Know With Kunal</h3>
+                    <p>A personal blog where I share thoughts, tips, and random topics that interest me. Built on a custom WordPress theme.</p>
+                    <span class="project-tag">Blogging</span>
+                    <span class="project-tag">Content Creation</span>
+                </div>
+            </a>
+            <!-- Project 2: Example of another project -->
+           
+        </div>
+    </section>
+
+    <!-- Blog Section (Scrollable) -->
+    <section id="blog" class="section reveal">
+        <h2 class="section-title">My Blog</h2>
+        <p class="section-subtitle">A collection of my thoughts and insights.</p>
+        <div class="scroll-container">
+            <div class="blog-cards-row">
+                <a href="#" class="blog-card">
+                    <h4>📝 5 Morning Habits</h4>
+                    <p>Boost your day with these powerful habits.</p>
+                </a>
+                <a href="#" class="blog-card">
+                    <h4>💻 Learn HTML & CSS</h4>
+                    <p>Start your web design journey the right way.</p>
+                </a>
+                <a href="#" class="blog-card">
+                    <h4>📈 Productivity Hacks</h4>
+                    <p>Simple tricks to increase daily focus.</p>
+                </a>
+                <a href="#" class="blog-card">
+                    <h4>🎯 Goal Setting Tips</h4>
+                    <p>How to stay motivated and consistent.</p>
+                </a>
+            </div>
+        </div>
+        <a class="cta-button" href="https://knowwithkunal.blogspot.com" target="_blank">🌐 Visit Full Blog</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">I'm currently open for new opportunities.</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>📍 Delhi, India | 📧 kunalji1012@gmail.com</p>
+            <p>
+                <a href="https://www.instagram.com/__kunal__2909" target="_blank">Instagram</a> |
+                <a href="https://wa.me/qr/DSJIEBOKUOROB1" target="_blank">WhatsApp</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Kunal Gola. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top-btn">⬆️</button>
+
+    <!-- Link to the custom JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
